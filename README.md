@@ -1,4 +1,5 @@
-## Hi there 👋
+## wow git wants this readme to be on my profile. 
+## well I guess hello I'm Jørgen I code real good hire me pls
 
 <!--
 **Icyhuman/Icyhuman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
