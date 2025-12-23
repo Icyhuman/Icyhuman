@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>me when i make a website</title>
         <link rel="stylesheet" type="text/css" href="resources/websitestyle.css">
+        <script src="resources/scripts"></script>
     </head>
     <body>
         <ul class="cooltoplist"> 
@@ -21,18 +22,6 @@
         <p>But why am I making a site now, and not as a hobby during my studies, you may ask. Well, depression is terrible for your motivation. Once I have an 
         outside sorce of motivation, like grades or wages, I can push myself to work very hard on stuff. But as a hobby, when the motivation has to come from within? Not so much.<br>
         No need to worry, though. My depression has loosened its grip over the years, and I'm doing pretty good now.</p>
-        <p id="coords">testin4</p>
         <div id="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99;background:white;"><b>HOVER THIS BOX FOR FUNNY COLORS</b></div>
-        <script>function recolor(event){ //get mouse pos, make color
-          let x = event.clientX;
-          let y = event.clientY;
-          let r = x;
-          let g = 255 - x;
-          let b = y - 485;
-          let rgebe="rgb("+r+","+g+","+b+")";
-          document.getElementById("dabox").style.background = rgebe;
-          let coor = "Boordinates: (" + r + "," + b + ")"+g;
-          document.getElementById("coords").innerHTML=coor;
-        }</script>
     </body>
 </html>
