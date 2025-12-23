@@ -5,8 +5,8 @@ function recolor(event){ //get mouse pos, make color
   let r = x;
   let g = 255-x;
   let b = y;
-  let rgebe="rgb("+r+","+g+","+b+")";
-  document.getElementById("dabox").style.background = rgebe;
-  let coor = "Coordinates2: (" + x + "," + y + ")";
+  //let rgebe="rgb("+r+","+g+","+b+")";
+  //document.getElementById("dabox").style.color = rgebe;
+  let coor = "Coordinates2: (" + x + "," + y + ")"+r+g+b;
   document.getElementById("coords").innerHTML=coor;
 }
