@@ -1,6 +1,7 @@
 function recolor(event){ //get mouse pos, make color
   let x = event.clientX;
-  let y = event.clientY-485;
+  let galb = event.clientY;
+  let y = galb-485;
   let r = x;
   let g = 255-x;
   let b = y;
