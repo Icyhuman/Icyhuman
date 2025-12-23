@@ -7,6 +7,6 @@ function recolor(event){ //get mouse pos, make color
   //let b = y;
   //let rgebe="rgb("+r+","+g+","+b+")";
   //document.getElementById("dabox").style.color = rgebe;
-  let coor = "Coordinates2: (" + x + "," + y + ")";
+  let coor = "Coordinates: (" + x + "," + y + ")";
   document.getElementById("coords").innerHTML=coor;
 }
