@@ -22,7 +22,8 @@
         outside sorce of motivation, like grades or wages, I can push myself to work very hard on stuff. But as a hobby, when the motivation has to come from within? Not so much.<br>
         No need to worry, though. My depression has loosened its grip over the years, and I'm doing pretty good now.</p>
         <p id="coords">testin4</p>
-        <div class="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99; background:white"></div>
+        <div class="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99;"></div>
+        <div class="daboxz" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 98; background:white"></div>
         <script>function recolor(event){ //get mouse pos, make color
           let x = event.clientX;
           let y = event.clientY;
@@ -30,7 +31,7 @@
           let g = 255 - x;
           let b = y - 485;
           let rgebe="rgb("+r+","+g+","+b+")";
-          document.getElementById("coords").style.color = rgebe;
+          document.getElementById("cdaboxz").style.background = rgebe;
           let coor = "Boordinates: (" + r + "," + b + ")"+g;
           document.getElementById("coords").innerHTML=coor;
         }</script>
