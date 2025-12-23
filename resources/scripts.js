@@ -6,6 +6,6 @@ function recolor(event){ //get mouse pos, make color
   let g = 255-x;
   let b = y;
   document.getElementById("dabox").style.background = rgb(r,g,b);
-  let coor = "Coordinates: (" + x + "," + y + ")";
+  let coor = "Coordinates2: (" + x + "," + y + ")";
   document.getElementById("coords").innerHTML=coor;
 }
