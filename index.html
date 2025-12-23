@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>me when i make a website</title>
-        <script src="resources/scripts.js"></script>
+        #<script src="resources/scripts.js"></script>
         <link rel="stylesheet" type="text/css" href="resources/websitestyle.css">
     </head>
     <body>
@@ -24,5 +24,16 @@
         No need to worry, though. My depression has loosened its grip over the years, and I'm doing pretty good now.</p>
         <p id="coords">testin4</p>
         <div class="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99; background:white"></div>
+        <script>function recolor(event){ //get mouse pos, make color
+          let x = event.clientX;
+          let y = event.clientY;
+          let r = x;
+          //let g = 255 - x;
+          //let b = y - 485;
+          //let rgebe="rgb("+r+","+g+","+b+")";
+          //document.getElementById("dabox").style.color = rgebe;
+          let coor = "Boordinates: (" + r + "," + y + ")";
+          document.getElementById("coords").innerHTML=coor;
+        }</script>
     </body>
 </html>
