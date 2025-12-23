@@ -27,7 +27,11 @@
           let x = event.clientX;
           let y = event.clientY;
           let r = x;
-          let g = 255 - x + 255 - y - 485;
+          if (x < 128) {
+            let g = 255 - (x*2);
+          } else {
+            let g = (x-128)*2;
+          }
           let b = y - 485;
           let rgebe="rgb("+r+","+g+","+b+")";
           document.getElementById("dabox").style.background = rgebe;
