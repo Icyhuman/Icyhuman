@@ -19,7 +19,7 @@
         <p>Anyway, hello. I'm Jørgen, and it turns out that it's a lot easier to get a programming related job if you publicly display your ability to program stuff. 
         Who could have imagined that, haha.</p>
         <p>So that's pretty much my deal. I like working with computer stuff, and if I could do that while also being paid, that would be great.</p>
-        <p>But why am I making a site now, and not as a hobby during my studies, you may ask. Well, depression is terrible for your motivation. Once I have an 
+        <p id="test">But why am I making a site now, and not as a hobby during my studies, you may ask. Well, depression is terrible for your motivation. Once I have an 
         outside sorce of motivation, like grades or wages, I can push myself to work very hard on stuff. But as a hobby, when the motivation has to come from within? Not so much.<br>
         No need to worry, though. My depression has loosened its grip over the years, and I'm doing pretty good now.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
         <div id="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99;background:white;"><b>HOVER THIS BOX FOR FUNNY COLORS:)</b></div>
@@ -38,6 +38,7 @@
             }
             function ballin() {
                 var sp = getScrollFrac();
+                document.getElementById("test").innerhtml = sp;
                 var opac = 1-sp;
                 document.getElementById("ballin1").style.opacity = opac;
             }
