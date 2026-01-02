@@ -19,6 +19,7 @@ function switchslide(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slides[index].style.display = "block";
+  console.log(slides);
+  //slides[index].style.display = "block";
   console.log("endshabti");
 } 
