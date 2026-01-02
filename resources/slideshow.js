@@ -1,5 +1,6 @@
-let index = 0;
-switchslide(index)
+var index = 0;
+console.log("ushabti2");
+switchslide(index);
 
 function arrowCTRLS(n) {
   console.log("ushabti");
