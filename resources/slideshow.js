@@ -9,11 +9,15 @@ function arrowCTRLS(n) {
 
 function switchslide(n) {
   let i;
+  console.log("ushabti");
   let slides = document.getElementsByClassName("slide");
-  if (n > slides.length) {slideIndex = 1}
+  if (n > slides.length) {index = 1}
   if (n < 0) {index = slides.length}
+  console.log("funshabti");
+  console.log(index);
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   slides[index].style.display = "block";
+  console.log("endshabti");
 } 
