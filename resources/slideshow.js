@@ -19,7 +19,8 @@ function switchslide(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  console.log(slides);
+  console.log(slides[index].style.display);
   slides[index].style.display = "block";
+  console.log(slides[index].style.display);
   console.log("endshabti");
 } 
