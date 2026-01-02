@@ -20,6 +20,6 @@ function switchslide(n) {
     slides[i].style.display = "none";
   }
   console.log(slides);
-  //slides[index].style.display = "block";
+  slides[index].style.display = "block";
   console.log("endshabti");
 } 
