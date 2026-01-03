@@ -8,6 +8,8 @@
   position: relative;
   margin: auto;
   border: 5px solid black;
+  display: flex;
+  justify-content: center; 
 }
 
 .prev {
