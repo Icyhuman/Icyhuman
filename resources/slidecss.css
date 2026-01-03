@@ -1,3 +1,17 @@
 .slide {
   display: none;
 }
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left:0px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right:0px;
+  background-color: rgba(255,255,255,0.3);
+}
