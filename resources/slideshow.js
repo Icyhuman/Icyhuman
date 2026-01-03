@@ -12,7 +12,7 @@ function switchslide(n) {
   let i;
   console.log("ushabti");
   let slides = document.getElementsByClassName("slide");
-  if (n > slides.length) {index = 1}
+  if (n >= slides.length) {index = 0}
   if (n < 0) {index = slides.length}
   console.log("funshabti");
   console.log(index);
