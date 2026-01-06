@@ -1,13 +1,6 @@
 .slide {
   display: none;
   margin: auto;
-  align-self: center;
-  align-items: center;
-  justify-content: center; 
-}
-
-.img {
-  align-self: center;
 }
 
 .slideframe {
