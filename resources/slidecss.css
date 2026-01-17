@@ -25,3 +25,15 @@
   background-color: rgba(255,255,255,0.3);
   font-size: 35px;
 }
+
+.slide2 {
+  display: none;
+  margin: auto;
+}
+
+.slideframe2 {
+  max-width: 75%;
+  position: relative;
+  margin: auto;
+  border: 5px solid black;
+}
