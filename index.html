@@ -11,40 +11,23 @@
         <ul class="cooltoplist"> 
             <li class="top"><a class="top" href="index.html">HOME</a></li>
             <li class="top"><a class="top" href="pages/uni.html">UNI RELATED WORK</a></li>
-            <li class="top"><a class="top" href="pages/silly.html">OTHER "WORK"</a></li>
-            <li class="top"><a class="top" href="pages/aboutme.html">ABOUT ME</a></li>
+            <li class="top"><a class="top" href="pages/projects.html">OTHER "WORK"</a></li>
+            <li class="top"><a class="top" href="pages/aboutmeboring.html">ABOUT ME (SERIOUS)</a></li>
+            <li class="top"><a class="top" href="pages/aboutme.html">ABOUT ME (GOOD)</a></li>
             <li class="top"><a class="top" href="pages/gaming.html">MISC VIDEOGAME SCREENSHOTS</a></li>
-        </ul><br/><br/>
+            <li class="top"><a class="top" href="pages/silly.html">HTML TOMFOOLERY</a></li>
+        </ul><br><br>
         <h2><br>JØRGEN'S WEBSITE</h2>
-        <p>Sorry if the visuals are unimpressive, doing it from scratch is more fun to me than one of those cool and sleek website builders.</p>
+        <p>Sorry if the visuals are unimpressive, this is pretty much a hobby thing i occasionally mess around with.</p>
         <p>Anyway, hello. I'm Jørgen, and it turns out that it's a lot easier to get a programming related job if you publicly display your ability to program stuff. 
-        Who could have imagined that, haha.</p>
-        <p>So that's pretty much my deal. I like working with computer stuff, and if I could do that while also being paid, that would be great.</p>
-        <p id="test">But why am I making a site now, and not as a hobby during my studies, you may ask. Well, depression is terrible for your motivation. Once I have an 
-        outside sorce of motivation, like grades or wages, I can push myself to work very hard on stuff. But as a hobby, when the motivation has to come from within? Not so much.<br>
-        No need to worry, though. My depression has loosened its grip over the years, and I'm doing pretty good now.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
-        <div id="dabox" onmousemove="recolor(event)" style="height: 255px;width:255px; position: fixed; left: 0px; bottom: 0px; z-index: 99;background:white;"><b>HOVER THIS BOX FOR FUNNY COLORS:)</b></div>
-        <div id="ballin1" onscroll="ballin()" style="opacity: 1; max-height: 300px; position: fixed; bottom: 0px; right: 0px; z-index: 9;">
-        <img src="imgs/Ballin1.png" height="150" width="450"/></div>
-        <div id="ballin2" style="max-height: 300px; position: fixed; bottom: 0px; right: 0px; z-index: 8;">
-        <img src="imgs/Ballin2.png" height="150" width="450"/></div>
-        <script>
-            function getScrollFrac() {
-                var h = document.documentElement, 
-                b = document.body,
-                st = 'scrollTop',
-                sh = 'scrollHeight';
-                return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight);
-            }
-            function ballin() {
-                var sp = getScrollFrac();
-                document.getElementById("test").innerhtml = sp;
-                var opac = 1-sp;
-                document.getElementById("ballin1").style.opacity = opac;
-            }
-            window.addEventListener("scroll", () => {ballin();})
-
-                
-        </script>
+        Who could have imagined that, haha. <br>Use the cool buttons on the top to navigate the site.</p>
+        <h4>So what's here?<br></h4>
+        <p><b>Home</b> is this page.</p>
+        <p><b>Uni related work</b> is a little barebones, but it's where I put stuff I've done for uni.</p>
+        <p><b>Other "work"</b> is where I write about little side projects I've done on my spare time.</p>
+        <p><b>About me (serious)</b> contains information regarding my skills and qualifications.</p>
+        <p><b>About me (good)</b> is about less career-relevant stuff like my hobbies and music taste.</p>
+        <p><b>Misc videogame screenshots</b> contains exactly what the label says, because I felt like putting my game screenshots on here.</p>
+        <p><b>HTML tomfoolery</b> has a funny box that changes color based on cursor position, and other nonsensical HTML/css/js things i made to amuse myself.</p>
     </body>
 </html>
