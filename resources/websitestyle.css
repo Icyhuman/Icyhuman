@@ -1,5 +1,5 @@
 ul.cooltoplist {
-    list-style-type: none; margin: 0%; padding: 0;
+    list-style-type: none; margin-left: -8%; margin-right: -8%; padding: 0;
 }
 
 li.top{
@@ -27,4 +27,28 @@ body{
 
 img{
     max-width: 100%;
+}
+
+/* The funny dvd logo from my Spacehey profile with added spin action*/
+@keyframes updown{
+  from{ bottom: 0%; }
+  to{ bottom: calc(100% - 150px); }
+}
+@keyframes leftright{
+  from{ right: 0%; }
+  to{ right: calc(100% - 268px); }
+}
+@keyframes rarespin{
+  0%{ transform:rotate(0deg); }
+  48%{ transform:rotate(0deg); }
+  50%{ transform:rotate(360deg); }
+  100%{ transform:rotate(360deg); }
+}
+div.dvd{
+    animation: updown 4.29s infinite linear, leftright 5.76s infinite linear, rarespin 10s infinite linear;
+    animation-direction: alternate;
+    max-height: 300px; 
+    position: fixed; 
+    bottom: 0px; 
+    z-index: 99;
 }
