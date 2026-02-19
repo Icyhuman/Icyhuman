@@ -126,3 +126,7 @@ div.dvd{
     bottom: 0px; 
     z-index: 99;
 }
+
+iframe.musicvid{
+    width:100%; aspect-ratio: 16 / 9;
+}
