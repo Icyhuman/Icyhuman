@@ -1,5 +1,9 @@
 ## wow git wants this readme to be on my profile. 
-## well I guess hello I'm Jørgen I code real good hire me pls
+This was the readme for my website until I migrated it so I guess I can use it as a profile thing now.
+I guess there's not much point writing a lot because there's already an about me section on my website, just go to icyhuman.github.io  
+Also please hire me I'm looking for work and I can code real good.
+
+
 
 <!--
 **Icyhuman/Icyhuman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
