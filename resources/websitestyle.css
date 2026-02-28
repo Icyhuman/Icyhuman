@@ -130,3 +130,7 @@ div.dvd{
 iframe.musicvid{
     width:100%; aspect-ratio: 16 / 9;
 }
+
+img.gameimg{
+    width:99%; aspect-ratio: 1 / 1;
+}
