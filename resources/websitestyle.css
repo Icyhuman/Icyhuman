@@ -31,13 +31,13 @@ a.toph:hover{
     background-image: url('../assets/homeh.png');
     background-size: contain;
 }
-a.topu{
-    text-decoration: none; width: 100%; aspect-ratio: 12 / 6; background-image: url('../assets/uni.png'); float: left; padding: 10px; padding-top: 20px; margin-left: 3px; color: plum;
+a.topn{
+    text-decoration: none; width: 100%; aspect-ratio: 12 / 6; background-image: url('../assets/new.png'); float: left; padding: 10px; padding-top: 20px; margin-left: 3px; color: plum;
     background-size: contain; background-repeat: no-repeat;
 }
 
-a.topu:hover{
-    background-image: url('../assets/unih.png');
+a.topn:hover{
+    background-image: url('../assets/newh.png');
     background-size: contain;
 }
 a.topp{
