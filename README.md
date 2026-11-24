@@ -1,8 +1,10 @@
-## wow git wants this readme to be on my profile. 
-This was the readme for my website until I migrated it so I guess I can use it as a profile thing now.
-I guess there's not much point writing a lot because there's already an about me section on my website, just go to icyhuman.github.io  
-Also please hire me I'm looking for work and I can code real good.
+## The super cool Jørgen git profile *(Whoa!)*
+I'm a highly skilled programmer currently looking for work. I used to train AI during university, currently I mostly do web development because I find it creatively fulfilling.
+I'm a very quick learner *(when I'm motivated lmao)*, but fortunately I'm motivated by money, so as long as you pay me, I'll do a good job.
 
+I can currently program very competently in Python, Java, Html/CSS and JavaScript. However, due to that whole quick learner thing and a mild case of high-functioning autism, I can program competently in whatever you desire given the proper time to learn and financial incentive.*(World's first professional brainfuck developer?)*
+
+If you're not one of those HR nerds and you're here to find cool stuff, go to my cool passion project, [Welcome to Snowcape](https://snowcape.neocities.org/). It's a pretty expansive website dedicated to Animal Crossing, one of my favorite games of all time.
 
 
 <!--
